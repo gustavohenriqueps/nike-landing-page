@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "coral-red": "#FF6452",
+        "coral-red": "#ef4444",
       },
     },
     fontFamily: {

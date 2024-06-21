@@ -25,7 +25,7 @@ const PopularProductCard = ({
     origin: "left",
     distance: "150px",
     duration: 1500,
-    delay: 150,
+    delay: 250,
   });
 
   return (

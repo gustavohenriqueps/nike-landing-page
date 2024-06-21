@@ -3,6 +3,7 @@ import { statistics } from "../constants";
 import { bgHero } from "../assets/images";
 import { useRef } from "react";
 import useScrollReveal from "../hooks/useScrollReveal";
+import ButtonPrimary from "../components/ButtonPrimary";
 
 const Hero = () => {
   const revealRef = useRef<HTMLDivElement>(null);
@@ -12,14 +13,14 @@ const Hero = () => {
     origin: "left",
     distance: "150px",
     duration: 1500,
-    delay: 200,
+    delay: 250,
   });
 
   useScrollReveal(revealRef2, {
     origin: "left",
     distance: "100px",
     duration: 1500,
-    delay: 200,
+    delay: 250,
   });
 
   return (
@@ -49,10 +50,15 @@ const Hero = () => {
         </p>
 
         <div>
-          <button className="py-4 px-8 rounded-full bg-coral-red font-poppins font-medium text-neutral-50 flex items-center gap-4">
-            Shop Now
-            <ArrowRightOutlined />
-          </button>
+          <ButtonPrimary
+            backgroundColor="bg-coral-red"
+            textColor="text-neutral-50"
+            flex="flex"
+            label="Shop Now"
+            children={
+              <ArrowRightOutlined className="bg-neutral-50 rounded-full text-coral-red p-1" />
+            }
+          />
         </div>
 
         <div className="flex flex-wrap w-full gap-16 mt-8">
