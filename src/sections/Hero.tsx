@@ -52,8 +52,9 @@ const Hero = () => {
         <div>
           <ButtonPrimary
             backgroundColor="bg-coral-red"
+            hoverBackgroundColor="hover:bg-gradient-to-r from-coral-red to-coral-red-hover"
             textColor="text-neutral-50"
-            flex="flex"
+            flex={true}
             label="Shop Now"
             children={
               <ArrowRightOutlined className="bg-neutral-50 rounded-full text-coral-red p-1" />

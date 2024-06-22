@@ -26,7 +26,7 @@ const NavMobile = () => {
         </a>
 
         <a>
-          <HeartOutlined className="text-xl p-1 text-red-500 cursor-pointer" />
+          <HeartOutlined className="text-xl p-1 text-coral-red cursor-pointer" />
         </a>
 
         <a>

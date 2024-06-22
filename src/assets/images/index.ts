@@ -8,6 +8,8 @@ import bgQuality from "./bg-quality.jpg";
 import grid1 from "./grid1.jpg";
 import grid2 from "./grid2.jpg";
 import grid3 from "./grid3.jpg";
+import customer1 from "./customer1.jpeg";
+import customer2 from "./customer2.svg";
 
 export {
   nikeLogo,
@@ -20,4 +22,6 @@ export {
   grid1,
   grid2,
   grid3,
+  customer1,
+  customer2,
 };

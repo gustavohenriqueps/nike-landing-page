@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "coral-red": "#ef4444",
+        "coral-red-hover": "#fca5a5",
       },
     },
     fontFamily: {

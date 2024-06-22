@@ -44,7 +44,7 @@ const PopularProductCard = ({
         </div>
 
         <div className="flex gap-1">
-          <div className="flex gap-1">
+          <div className="flex gap-1 text-coral-red">
             <StarFilled />
             <StarFilled />
             <StarFilled />

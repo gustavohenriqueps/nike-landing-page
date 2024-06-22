@@ -44,8 +44,9 @@ const SpecialOffer = () => {
         <div className="flex gap-4 flex-wrap">
           <ButtonPrimary
             backgroundColor="bg-coral-red"
+            hoverBackgroundColor="hover:bg-gradient-to-r from-coral-red to-coral-red-hover"
             textColor="text-neutral-50"
-            flex="flex"
+            flex={true}
             label="Shop Now"
             children={
               <ArrowRightOutlined className="bg-neutral-50 rounded-full text-coral-red p-1" />
@@ -53,6 +54,7 @@ const SpecialOffer = () => {
           />
           <ButtonPrimary
             backgroundColor="bg-neutral-50"
+            hoverBackgroundColor="hover:bg-gradient-to-r from-neutral-50 to-neutral-200"
             textColor="text-neutral-900"
             label="View Details"
             border="border border-neutral-900"

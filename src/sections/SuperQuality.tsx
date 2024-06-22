@@ -44,6 +44,7 @@ const SuperQuality = () => {
         <div>
           <ButtonPrimary
             backgroundColor="bg-coral-red"
+            hoverBackgroundColor="hover:bg-gradient-to-r from-coral-red to-coral-red-hover"
             textColor="text-neutral-50"
             label="View Details"
           />

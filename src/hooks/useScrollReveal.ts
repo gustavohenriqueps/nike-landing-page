@@ -6,7 +6,6 @@ interface ScrollRevealConfig {
   distance?: string;
   duration?: number;
   delay?: number;
-  [key: string]: any;
 }
 
 const useScrollReveal = (
